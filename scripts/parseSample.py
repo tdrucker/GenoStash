@@ -63,5 +63,4 @@ for line in file:
 				#print samples
 				jsonize(token, format, id, samples[0])
 			count = count + 1
-		break
 
