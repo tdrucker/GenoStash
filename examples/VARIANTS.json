@@ -1,0 +1,4 @@
+{"ref":"G","alt":"A","anno":[{"K":"NS","V":3},{"K":"DP","V":14},{"K":"AF","V":[0.5]},{"K":"DB","V":true},{"K":"H2","V":true}],"_landmark":"22","_id":"22_16056518_G_A","_minBP":16056518,"_maxBP":16056518,"kit_id":[],"notes":[]}
+{"ref":"A","alt":"G","anno":[{"K":"NS","V":3},{"K":"DP","V":14},{"K":"AF","V":[0.5]},{"K":"DB","V":true},{"K":"H2","V":true}],"_landmark":"20","_id":"20_14371_A_G","_minBP":14371,"_maxBP":14371,"kit_id":[],"notes":[]}
+{"ref":"A","alt":"G","anno":[{"K":"NS","V":3},{"K":"DP","V":14},{"K":"AF","V":[0.5]},{"K":"DB","V":true},{"K":"H2","V":true}],"_landmark":"20","_id":"20_14372_A_G","_minBP":14372,"_maxBP":14372,"kit_id":[],"notes":[]}
+{"ref":"C","alt":"T","anno":[{"K":"NS","V":300},{"K":"DP","V":134},{"K":"AF","V":[0.5]},{"K":"DB","V":true},{"K":"H2","V":true}],"_landmark":"22","_id":"22_14373_C_T","_minBP":14373,"_maxBP":14373,"kit_id":[],"notes":[]}
