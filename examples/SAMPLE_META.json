@@ -1,4 +1,4 @@
-{"sample_id" : "EX2","study_id" : "TEST","kit_id" : "KIT1","Extra_1" : "placeholder", "STATUS": "case"},
-{"sample_id" : "EX3","study_id" : "TEST","kit_id" : "KIT1","Extra_1" : "placeholder", "STATUS": "case"},
-{"sample_id" : "EX1","study_id" : "TEST","kit_id" : "KIT1","Extra_1" : "placeholder with spaces", "STATUS": "case"},
+{"sample_id" : "EX2","study_id" : "TEST","kit_id" : "KIT1","Extra_1" : "placeholder", "STATUS": "case"}
+{"sample_id" : "EX3","study_id" : "TEST","kit_id" : "KIT1","Extra_1" : "placeholder", "STATUS": "case"}
+{"sample_id" : "EX1","study_id" : "TEST","kit_id" : "KIT1","Extra_1" : "placeholder with spaces", "STATUS": "case"}
 {"sample_id" : "HG00098","study_id" : "1KGenomes","kit_id" : "KIT2","Extra_1" : "placeholder", "STATUS": "case", pid: 210}
