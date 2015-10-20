@@ -1,0 +1,131 @@
+
+###################################################################
+#SampleMeta
+{
+	_id : ObjectID("34823047389578fdf8ds907gd")
+	sample : 'MySample',
+	kit_id : "SimplexoCustomCapture",
+	study_id : "Simplexo",
+	tumorType : 'Breast',
+	tumor : true,
+	status : 'case',
+	age : 35,
+	patient_id : 1290344
+}
+
+###################################################################
+#Variant
+{
+	_id: "10_10000_G_A",
+	_landmark : "10",
+	_minBP : 10000,
+	_maxBP : 10001
+	ref : "G",
+	alt : "GA",
+	kit_id : ["1","2","15"],
+	needsAnno : 1,
+	gene : "BRCA2",
+	impact : "HIGH",
+	ExAC_AF : 0.001,
+	anno : [
+		{ K: "cava_impact", V : "HIGH"} ,
+		{ K: "cava_gene", V : "BRCA2"},
+		{ K: "snpEff_transcript", V : "ENST001212"},
+		{ K: "1KG_AF",  V : 0.002}
+	],
+	Notes:[
+		{user: "m087494", call: "Pathogenic", date: 10012015}
+	]
+},
+#SV Deletion
+{	
+	_id: "10_10001_50000_G_DEL",
+	_landmark : "10",
+	_minBP : 10001,
+	_maxBP : 50000,
+	CIPOS : "-16,20",
+	CIEND :  "-100,250",
+	type : "SV",
+	ref : "G",
+	alt : "DEL",
+	kit_id : ["1","2","15"],
+	needsAnno : 1,
+	gene : "BRCA2",
+	impact : "HIGH",
+	ExAC_AF : 0.001,
+	Notes:[
+		{user: "m087494", call: "Pathogenic", date: 10012015}
+	]
+},
+#Translocation
+{
+	_id: "2_321681_123456_G_[13:123457[",
+	_landmark : "2",
+	_minBP : 321680,
+	_maxBP : 321682,
+	_landmark2 : "13",
+	_minBP2 : "123456",
+	_maxBP2 : "123458",
+	CIPOS : "-1,1",
+	CIEND :  "-1,1",
+	CIPOS2 : "-1,1",
+	CIEND2 :  "-1,1",
+	type : "BND",
+	ref : "G",
+	alt : "13:123457[",
+	kID : ["1","2","15"],
+	needsAnno : 1,
+	gene : "BRCA2",
+	impact : "HIGH",
+	ExAC_AF : 0.001,
+	gene2 : "KRAS",
+	Notes:[
+		{user: "m087494", call: "Pathogenic", date: 10012015}
+	]
+}
+
+###################################################################
+# FormatData
+{
+	GT : "/1",
+	PL : "0,24,1045",
+	AD_1 : 23,
+	AD_2 : 44,
+	GQ : 40,
+	HQ : "24,40",
+	DP : 20,
+	MIN_DP : 20,
+	sID : "34823047389578fdf8ds907gd", #sample ID
+	vID : "10_10000_G_A", # variant ID
+	sgV : 1 #sanger validated,
+	GTC : 1
+},
+{	#Copy number
+	GT : "./1",
+	GQ : 20,
+	CN : 1, #Copy Number
+	MIN_DP : 20,
+	AD_1 : 23,
+	AD_2 : 44,
+	sID : "34823047389578fdf8ds907gd", #sample ID
+	vID : "10_10000_G_A", # variant ID
+	sgV : 1 #sanger validated,
+	GTC : 1
+},
+#Translocation
+{
+        GT : "./1",
+        GQ : 20,
+        MIN_DP : 20
+}
+
+###################################################################
+#Kit
+{
+	kID : 1,
+	kit_name : "capture",
+	_landmark : "1",
+	_minBP : 1000,
+	_maxBP : 2000
+}
+
